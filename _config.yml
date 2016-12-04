@@ -24,13 +24,20 @@ url: "https://academicurmchallenge.github.io" # the base hostname & protocol for
 # twitter_username: jekyllrb
 github_username:  academicurmchallenge
 
-highlighter: pygments
+locale: en
+title_separator: "-"
+repository: academicurmchallenge/academicurmchallenge.github.io
+highlighter: rouge
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: minimal-mistakes-jekyll
 gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
